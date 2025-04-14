@@ -1,12 +1,12 @@
 {
   "frame": {
     "version": "1",
-    "name": "Farcaster Chat",
-    "iconUrl": "https://ringtones-collectible-boards-beach.trycloudflare.com/logo.svg",
-    "homeUrl": "https://ringtones-collectible-boards-beach.trycloudflare.com",
-    "imageUrl": "https://ringtones-collectible-boards-beach.trycloudflare.com/logo.svg",
+    "name": "Jack's Resume Bot",
+    "iconUrl": "https://jack-frame.vercel.app/logo.svg",
+    "homeUrl": "https://jack-frame.vercel.app",
+    "imageUrl": "https://jack-frame.vercel.app/logo.svg",
     "buttonTitle": "💬 Chat",
-    "splashImageUrl": "https://ringtones-collectible-boards-beach.trycloudflare.com/logo.svg",
+    "splashImageUrl": "https://jack-frame.vercel.app/logo.svg",
     "splashBackgroundColor": "#ffffff"
   }
 }
