@@ -1,0 +1,12 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "Farcaster Chat",
+    "iconUrl": "https://ringtones-collectible-boards-beach.trycloudflare.com/logo.svg",
+    "homeUrl": "https://ringtones-collectible-boards-beach.trycloudflare.com",
+    "imageUrl": "https://ringtones-collectible-boards-beach.trycloudflare.com/logo.svg",
+    "buttonTitle": "💬 Chat",
+    "splashImageUrl": "https://ringtones-collectible-boards-beach.trycloudflare.com/logo.svg",
+    "splashBackgroundColor": "#ffffff"
+  }
+}
