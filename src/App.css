@@ -28,6 +28,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .app-header {
@@ -37,6 +38,7 @@ body {
   padding: 1rem 0;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--border-color);
+  flex-shrink: 0;
 }
 
 .header-content {
@@ -80,6 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  overflow: hidden;
 }
 
 .chat-container {
@@ -99,6 +102,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-height: calc(100vh - 250px);
 }
 
 .message {
