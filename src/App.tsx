@@ -1,6 +1,6 @@
 import { sdk } from "@farcaster/frame-sdk";
 import { useEffect, useState, useRef } from "react";
-import { useAccount, useBalance } from "wagmi";
+import { useAccount } from "wagmi";
 import "./App.css";
 
 interface Message {
@@ -47,7 +47,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [messages]);
 
   const handleViewProfile = async () => {
@@ -208,27 +208,7 @@ Keep responses short, punchy, and highlight your unique value. Show how your div
             </button>
           </form>
         </div>
-
-        <WalletInfo />
       </main>
-    </div>
-  );
-}
-
-function WalletInfo() {
-  const { address } = useAccount();
-  const { data: balance } = useBalance({
-    address,
-  });
-
-  if (!address) return null;
-
-  return (
-    <div className="wallet-info">
-      <h3>Wallet Balance</h3>
-      <div className="balance">
-        {balance?.formatted} {balance?.symbol}
-      </div>
     </div>
   );
 }
