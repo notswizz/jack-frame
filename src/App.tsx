@@ -1,6 +1,5 @@
 import { sdk } from "@farcaster/frame-sdk";
 import { useEffect, useState, useRef } from "react";
-import { useAccount } from "wagmi";
 import "./App.css";
 
 interface Message {
