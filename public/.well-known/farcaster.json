@@ -4,7 +4,7 @@
     "name": "Jack's Resume Bot",
     "iconUrl": "https://jack-frame.vercel.app/logo.png",
     "homeUrl": "https://jack-frame.vercel.app",
-    "imageUrl": "https://jack-frame.vercel.app/frame-image.png",
+    "imageUrl": "https://jack-frame.vercel.app/image.png",
     "buttonTitle": "Jack's Resume Chatbot",
     "splashImageUrl": "https://jack-frame.vercel.app/splash-background.png",
     "splashBackgroundColor": "#ffffff"
