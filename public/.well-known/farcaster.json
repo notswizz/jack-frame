@@ -8,5 +8,10 @@
     "buttonTitle": "💬 Chat",
     "splashImageUrl": "https://jack-frame.vercel.app/splash-background.png",
     "splashBackgroundColor": "#ffffff"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjE4ODgzLCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4OThiOENFNmFiNTdmOTY2NTA4Q2ZhMzE3NGYxMjdGOTU5OTFDNDZCMSJ9",
+    "payload": "eyJkb21haW4iOiJqYWNrLWZyYW1lLnZlcmNlbC5hcHAifQ",
+    "signature": "MHg0ZjRjMzUyNDU2YmE0NjQ4MjU2MjI2MGY2M2M4OTNkZjYxOWYyNGE3NmZhNTg1NmNlYTY1NGM4N2E5MTFmYTNhNDZhMmZhYjFkYzlhNDFmZmI0YWViMjk3ZGQ1ZTlkNDQ3NWU5MjVjNDY1NWE1NGY5MzRhY2I0OWQ1Y2Q5NTA1OTFi"
   }
 }
