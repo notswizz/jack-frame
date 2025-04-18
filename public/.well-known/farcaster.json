@@ -1,13 +1,22 @@
 {
   "frame": {
-    "version": "1",
+    "version": "vNext",
     "name": "Jack's Resume Bot",
     "iconUrl": "https://jack-frame.vercel.app/logo.png",
     "homeUrl": "https://jack-frame.vercel.app",
     "imageUrl": "https://jack-frame.vercel.app/frame-image.png",
     "buttonTitle": "💬 Chat",
     "splashImageUrl": "https://jack-frame.vercel.app/splash-background.png",
-    "splashBackgroundColor": "#ffffff"
+    "splashBackgroundColor": "#ffffff",
+    "postUrl": "https://jack-frame.vercel.app/api/frame",
+    "inputText": "Ask about my experience",
+    "aspectRatio": "1.91:1",
+    "buttons": [
+      {
+        "label": "💬 Chat",
+        "action": "post"
+      }
+    ]
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjE4ODgzLCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4OThiOENFNmFiNTdmOTY2NTA4Q2ZhMzE3NGYxMjdGOTU5OTFDNDZCMSJ9",
